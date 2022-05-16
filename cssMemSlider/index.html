@@ -2,9 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>CSS Mem Slider</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<div class="wrapper">
+    <div class="slider">
+        <input type="radio" id="slide1" name="image-slide" checked>
+        <input type="radio" id="slide2" name="image-slide">
+        <input type="radio" id="slide3" name="image-slide">
+        <input type="radio" id="slide4" name="image-slide">
+        <div class="slider-inner">
+            <div class="slide">
+                <img class="image" src="assets/img/1.jpg" alt="cat">
+            </div>
+            <div class="slide">
+                <img class="image" src="assets/img/2.jpg" alt="cat">
+            </div>
+            <div class="slide">
+                <img class="image" src="assets/img/3.jpg" alt="cat">
+            </div>
+            <div class="slide">
+                <img class="image" src="assets/img/4.jpg" alt="cat">
+            </div>
+        </div>
+        <div class="slider-outer">
+            <div class="captions-wrapper">
+                <div class="captions">
+                    <p class="caption">I want to go out, but I also want to stay in.</p>
+                    <p class="caption">Hi, someone told us you're 40 and live alone so we're here to help you.</p>
+                    <p class="caption">When you want to get in shape for the summer but life is hard.</p>
+                    <p class="caption">When someone tells you to smile for the camera.</p>
+                </div>
+            </div>
+            <div class="pagination">
+                <label for="slide1">
+                    <span class="circle"></span>
+                </label>
+                <label for="slide2">
+                    <span class="circle"></span>
+                </label>
+                <label for="slide3">
+                    <span class="circle"></span>
+                </label>
+                <label for="slide4">
+                    <span class="circle"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
